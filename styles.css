@@ -1,20 +1,76 @@
 
+.header {
+	background-image: url(https://www.dropbox.com/s/3jqt3vvqps03qcn/SanAntonio.jpg?raw=1);
+	height:600px;
+    width:600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+#name {
+	text-align: center;
+	position: relative;
+	top: 120px;
+  	margin: 0 auto;
+}
+
 h1 {
+	font-family:'Fredericka the Great', cursive;
+	font-size: 60px;
+	color: #000;
+	}
+
+h2 {
+	font-size: 40px;
+	padding-left: 20px;
+	margin-bottom: auto;
+	letter-spacing: 1px;
+}
+
+#content {
+	position: relative;
+  	width: 600px;
+  	margin: 0 auto;
+}
+
+h2, p, .links {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 img {
+	position: relative;
+	top: 100px;
+	border-radius: 50%;
 	size: 100%;
 	display: block;
     margin: auto;
-    width: 40%;
-}
-
-.links, p {
-	font-family: 'Raleway', sans-serif;
+    width: 50%;
 }
 
 p {
-	background-color: #E80C7A;
+	background-color: rgba(232, 12, 122, 0.8);
+	line-height: 40px;
+	font-size: 20px;
+	color: #FFF;
+	padding: 20px;
+	margin-top: 10px;
+	letter-spacing: 2px;
 }
+
+a {
+	color: #843cce;
+}
+
+.links{
+	text-align: right;
+	padding-bottom: 40px;
+	font-size: 20px;
+	word-spacing: 10px;
+}
+
+
+
+
+
+
