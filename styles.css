@@ -1,0 +1,20 @@
+
+}
+h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+img {
+	size: 100%;
+	display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.links, p {
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+	background-color: #E80C7A;
+}
