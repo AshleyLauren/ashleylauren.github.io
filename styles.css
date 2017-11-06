@@ -18,7 +18,7 @@
   	margin: 0 auto;
 }
 
-h1 {
+h1, h2, h3, h4, ul, .links, #navbar, #sub-navbar, a   {
 	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
 	color: #000;
@@ -37,9 +37,8 @@ h2 {
   	margin: 0 auto;
 }
 
-h2, h3, h4, p, ul, .links, #navbar, #sub-navbar, a  {
+p {
 	font-family: 'Roboto', sans-serif;
-	letter-spacing: 2px;
 }
 
 img.displayed {
