@@ -19,7 +19,7 @@
 }
 
 h1 {
-	font-family:'Fredericka the Great', cursive;
+	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
 	color: #000;
 	}
@@ -38,7 +38,7 @@ h2 {
 }
 
 h2, h3, h4, p, ul, .links, #navbar, #sub-navbar, a  {
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	letter-spacing: 2px;
 }
 
