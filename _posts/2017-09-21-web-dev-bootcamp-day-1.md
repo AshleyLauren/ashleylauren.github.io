@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Web Development Bootcamp Day 1!"
 date: 2017-09-18
 categories: bootcamp
@@ -16,8 +16,7 @@ Today was a *good* day. I’m officially on a path to becoming a Junior Web Deve
 You read it here first. Our instructor, [Janine Hemphy], was not shy about this fact: my objective is not to become a junior web developer; my objective is to learn how to learn— a fundamental skill shared by all developers. And it makes sense. In 10 years, perhaps 10 months, most of the technologies we cover in camp will no longer exist, or their future uses will be unrecognizable.
 
 [Janine Hemphy]: https://jhempy.github.io
-## Learning how to learn
-### Our process involves:  
+## Learning how to learn-  Our process involves:  
   *  Gaining a ‘thin understanding’ of the tech and digging deeper when needed for specific projects.   
   * Knowing where to find quality resources needed to learn new tech.  
        Cultivating a network of developers. 

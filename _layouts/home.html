@@ -1,56 +1,18 @@
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="/styles.css" type="text/css" rel="stylesheet">
+---
 
-		<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed" rel="stylesheet">
+layout: default
 
-</head>
-<body onscroll="myFunction()">
+---
 
-		<!-- Header & image !-->
+<div class="hero_image">
+  <div class="hero_container" >
+ 	<img src="https://www.dropbox.com/s/3gfvuxfy1tfjbrk/ashley_grigsby.png?raw=1" alt="Ashley Grigsby">
+    </div>
+  </div>
 
-<div class="container header" "col-8">
-		<img class= "displayed" "img-round" "img-responsive" src="https://www.dropbox.com/s/ydvjp46oj6fy1od/ashleyg.jpg?raw=1" alt="Ashley Grigsby">
-		<h1 id="name">{{page.title}}</h1>
-		</div>
+</div>
 
-		<!-- Nav Bar !-->
 
-		<div id="navbar">
-		  <a class="active" href="/index.html">About</a>
-		  <a href="/work.html">Work</a>
-		  <a href="/blog.html">Blog</a>
-		  <a href="/contact.html">Contact</a>
-		</div>
 
-<!-- Main content !-->
 
-<div class=row>
-
-<div id="content" class="about col-8">
-	<h2>About Me</h2>
-	<p>Hi there, I'm Ashley Grigsby. I love to learn new things, and I enjoy work that challenges me to find solutions to problems. Front-end web development is my latest adventure. I spend days learning, writing and tweaking code. I enjoy the process, and I look forward to a successful career in web development.</p>
-
-	<p>Hi there, I'm Ashley Grigsby. I love to learn new things, and I enjoy work that challenges me to find solutions to problems. Front-end web development is my latest adventure. I spend days learning, writing and tweaking code. I enjoy the process, and I look forward to a successful career in web development.</p>
-
-	<p>Hi there, I'm Ashley Grigsby. I love to learn new things, and I enjoy work that challenges me to find solutions to problems. Front-end web development is my latest adventure. I spend days learning, writing and tweaking code. I enjoy the process, and I look forward to a successful career in web development.</p>
-
-	<h2>Recent Blog Posts</h2>
-	<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-
-	</div>
-	</div>
-	<!-- Java Script
-========================================= !-->
-<script src="/styles.js"></script>
-
-<script>
-	console.log("File Name: _layouts/home.html");
-</script>
-</body>
+{{ content }}

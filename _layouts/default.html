@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>About Ashley</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="/styles.css" type="text/css" rel="stylesheet">
+	<head>
+		<title>{{ page.title }}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="/style.css" type="text/css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed" rel="stylesheet">
+	</head>
 
-	<link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed" rel="stylesheet">
+	<body>
+	<script src="https://use.fontawesome.com/5da74e6f46.js"></script>
 
-	<!-- Nav Bar !-->
+		<header class="content">
+		<ul class="top_nav">
+			<div id="sub-navbar"> <!-- Nav Bar !-->
+			  <li><a class="active" href="/index.html">About</a></li>
+			  <li><a href="/work.html">Work</a></li>
+			  <li><a href="/blog.html">Blog</a></li>
+			  <li><a href="/contact.html">Contact</a></li>
+			  <li style="float: right"><a href="https://plus.google.com/u/0/104863879536390541053"><i class="fa fa-google-plus"></i></a>
+			  <li style="float: right"><a href="https://github.com/AshleyLauren"><i class="fa fa-github"></i></a>
+			  <li style="float: right"><a href="https://stackexchange.com/users/11602883/ashley"><i class="fa fa-stack-overflow"></i></a>
+			  <li style="float: right"><a href="https://www.linkedin.com/in/ashleygrigsby"><i class="fa fa-linkedin"></i></a>
+		<ul> 
+			</div>
+		</header>
 
-	<div id="sub-navbar">
-	  <a class="active" href="/index.html">About</a>
-	  <a href="/work.html">Work</a>
-	  <a href="/blog.html">Blog</a>
-	  <a href="/contact.html">Contact</a>
-	</div>
-	
-	{{content}}
+		
+		<div class="content">
 
-	<div class=row>
+			{{ content }}
 
-	<div id="content" class="col-6 links">
-		<a href="https://plus.google.com/u/0/104863879536390541053">Google+</a>
-		<a href="https://github.com/AshleyLauren">GitHub</a>
-		<a href="https://stackexchange.com/users/11602883/ashley">Stack Overflow</a>
-		<a href="https://www.linkedin.com/in/ashleygrigsby">LinkedIn</a>
-	</div>
-	</div>
-
-
-</body>
+		</div>
+		<footer class="footer">
+			<p class ="footer">Ashley Lauren Grigsby &copy 2017</p>
+		</footer>
+	</body>
 </html>
-<script>
-	console.log("File Name: _layouts/default.html");
-</script>

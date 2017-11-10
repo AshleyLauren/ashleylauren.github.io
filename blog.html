@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Blog</title>
-</head>
-<body>
+---
+layout: default
+title: Ashley Grigsby | Work
+---
+<h1>Blog</h1>
 
-</body>
-</html>
-
-<script>
-	console.log("File Name: _site/blog.html");
-</script>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
